@@ -1,0 +1,36 @@
+import React from 'react';
+import './Hero.css';
+
+const Hero = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  return (
+    <section className="hero" id="inicio">
+      <div className="hero-overlay">
+        <div className="hero-content">
+          <h1 className="hero-title">Gallardo y Gallardo Construcciones</h1>
+          <p className="hero-subtitle">Construyendo tus sueños con calidad y compromiso</p>
+          <div className="hero-buttons">
+            <button
+              className="btn btn-primary"
+              onClick={() => scrollToSection('proyectos')}
+            >
+              Ver Proyectos
+            </button>
+            <button
+              className="btn btn-secondary"
+              onClick={() => scrollToSection('contacto')}
+            >
+              Contactar
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
