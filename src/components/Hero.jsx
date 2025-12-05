@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import logo from '../assets/images/LogoGyG.png';
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -11,6 +12,7 @@ const Hero = () => {
     <section className="hero" id="inicio">
       <div className="hero-overlay">
         <div className="hero-content">
+          <img src={logo} alt="Gallardo y Gallardo Logo" className="hero-logo" />
           <h1 className="hero-title">Gallardo y Gallardo Construcciones</h1>
           <p className="hero-subtitle">Construyendo tus sueños con calidad y compromiso</p>
           <div className="hero-buttons">

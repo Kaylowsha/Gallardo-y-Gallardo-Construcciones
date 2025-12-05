@@ -21,7 +21,7 @@ const Team = () => {
               nuestras obras.
             </p>
             <a
-              href="/CV_Dagoberto_Gallardo.pdf"
+              href={`${import.meta.env.BASE_URL}CV_Dagoberto_Gallardo.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="cv-button"
