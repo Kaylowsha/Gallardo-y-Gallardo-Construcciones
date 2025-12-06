@@ -27,12 +27,12 @@ const Certifications = () => {
             </div>
           </div>
           <a
-            href="https://www.mercadopublico.cl/Home/Proveedores"
+            href="https://www.mercadopublico.cl/Procurement/Modules/RFB/SearchProvider.aspx"
             target="_blank"
             rel="noopener noreferrer"
             className="mp-button"
           >
-            Ver Perfil en Mercado Público
+            Buscar en Mercado Público (RUT: 10.164.665-3)
           </a>
         </div>
 
