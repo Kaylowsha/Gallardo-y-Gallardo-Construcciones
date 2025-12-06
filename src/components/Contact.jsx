@@ -50,21 +50,22 @@ const Contact = () => {
               <span className="info-icon">📍</span>
               <div>
                 <h4>Ubicación</h4>
-                <p>Disponible en tu región</p>
+                <p>Punta Arenas, Chile</p>
               </div>
             </div>
             <div className="info-item">
               <span className="info-icon">📧</span>
               <div>
                 <h4>Email</h4>
-                <p>contacto@gallardoygallardo.com</p>
+                <p>gallardobarriaconstrucciones@gmail.com</p>
               </div>
             </div>
             <div className="info-item">
               <span className="info-icon">📱</span>
               <div>
-                <h4>Teléfono</h4>
-                <p>+56 9 XXXX XXXX</p>
+                <h4>Teléfonos</h4>
+                <p>+56 9 4212 2988</p>
+                <p>+56 9 8843 1933</p>
               </div>
             </div>
             <div className="info-item">
@@ -113,7 +114,7 @@ const Contact = () => {
                 value={formData.phone}
                 onChange={handleChange}
                 required
-                placeholder="+56 9 XXXX XXXX"
+                placeholder="+56 9 4212 2988"
               />
             </div>
 

@@ -44,9 +44,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contacto</h4>
             <ul className="footer-contact">
-              <li>📧 contacto@gallardoygallardo.com</li>
-              <li>📱 +56 9 XXXX XXXX</li>
-              <li>📍 Disponible en tu región</li>
+              <li>📧 gallardobarriaconstrucciones@gmail.com</li>
+              <li>📱 +56 9 4212 2988</li>
+              <li>📱 +56 9 8843 1933</li>
+              <li>📍 Punta Arenas, Chile</li>
             </ul>
           </div>
         </div>
