@@ -26,14 +26,6 @@ const Certifications = () => {
               <strong>Ubicación:</strong> Punta Arenas, Región de Magallanes
             </div>
           </div>
-          <a
-            href="https://www.mercadopublico.cl/Procurement/Modules/RFB/SearchProvider.aspx"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mp-button"
-          >
-            Buscar en Mercado Público (RUT: 10.164.665-3)
-          </a>
         </div>
 
         {/* Grid de Certificaciones Destacadas */}
