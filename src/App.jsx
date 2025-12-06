@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -7,11 +8,12 @@ import Certifications from './components/Certifications';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 import './App.css';
 
-function App() {
+function MainSite() {
   return (
-    <div className="App">
+    <>
       <Navbar />
       <Hero />
       <About />
@@ -20,7 +22,20 @@ function App() {
       <Team />
       <Contact />
       <Footer />
-    </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router basename="/Gallardo-y-Gallardo-Construcciones">
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<MainSite />} />
+          <Route path="/portafolio" element={<Portfolio />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

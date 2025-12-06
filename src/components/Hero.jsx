@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Hero.css';
 import logo from '../assets/images/LogoGyG.png';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: 'smooth' });
@@ -27,6 +30,12 @@ const Hero = () => {
               onClick={() => scrollToSection('contacto')}
             >
               Contactar
+            </button>
+            <button
+              className="btn btn-portfolio"
+              onClick={() => navigate('/portafolio')}
+            >
+              📄 Ver Portafolio
             </button>
           </div>
         </div>
